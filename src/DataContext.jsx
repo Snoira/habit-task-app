@@ -7,15 +7,7 @@ export function useDataContext() {
 }
 
 export function DataProvider({ children }) {
-    const [friends, setFriends] = useState([
-        {
-            name: "John Doe",
-            img: "img",
-            email: "email",
-            dob: "dob",
-            gender: "gender",
-        },
-    ]);
+    const [friends, setFriends] = useState([]);
     const [habits, setHabits] = useState([
         {
             title: "title",
